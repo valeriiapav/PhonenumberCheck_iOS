@@ -1,0 +1,24 @@
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj/project.xcworkspace
+DerivedData/
+build/
+*.hmap
+*.ipa
+*.dSYM
+
+# Swift Package Manager
+/.build/
+Package.resolved
+
+# User-specific Xcode files
+*.moved-aside
+*.swp
+*~.nib
+*~.storyboard
+*.xcuserstate
+PhonenumberCheck/AccessToken.plist
+
+# macOS
+.DS_Store
