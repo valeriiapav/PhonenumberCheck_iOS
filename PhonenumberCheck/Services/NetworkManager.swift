@@ -11,7 +11,10 @@ import Alamofire
 //singleton class for handling network requests
 class NetworkManager {
     static let networkManager = NetworkManager()
-    private init() {}
+    let decoder = JSONDecoder()
+    private init() {
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
+    }
     
     private let baseUrl = "http://apilayer.net/api/validate"
     
@@ -29,10 +32,6 @@ class NetworkManager {
         } else {
             throw PNError.invalidAccessToken
         }
-        
-        
-        let decoder = JSONDecoder()
-        decoder.keyDecodingStrategy = .convertFromSnakeCase
         
         return try await withCheckedThrowingContinuation { continuation in
             AF.request(baseUrl, method: .get, parameters: parameters)

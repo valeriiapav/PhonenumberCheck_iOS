@@ -18,6 +18,8 @@
 		1AC890F22D0AF978006A4029 /* AccessToken.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AC890F12D0AF978006A4029 /* AccessToken.plist */; };
 		1AC890F52D0AF9EE006A4029 /* PhonenumberInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC890F42D0AF9EE006A4029 /* PhonenumberInfo.swift */; };
 		1AC890F92D0B1235006A4029 /* PNError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC890F82D0B1235006A4029 /* PNError.swift */; };
+		1AC891182D0B2C5D006A4029 /* PhoneInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC891172D0B2C5D006A4029 /* PhoneInfoView.swift */; };
+		1AC8911D2D0B2D76006A4029 /* PhoneInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8911C2D0B2D76006A4029 /* PhoneInfoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		1AC890F42D0AF9EE006A4029 /* PhonenumberInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonenumberInfo.swift; sourceTree = "<group>"; };
 		1AC890F62D0B0968006A4029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1AC890F82D0B1235006A4029 /* PNError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNError.swift; sourceTree = "<group>"; };
+		1AC891172D0B2C5D006A4029 /* PhoneInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneInfoView.swift; sourceTree = "<group>"; };
+		1AC8911C2D0B2D76006A4029 /* PhoneInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneInfoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 				1AC890F62D0B0968006A4029 /* Info.plist */,
 				1AC890D22D0AECBD006A4029 /* PhonenumberCheckApp.swift */,
 				1AC890F32D0AF9D0006A4029 /* Model */,
+				1AC8911B2D0B2D3D006A4029 /* ViewModel */,
 				1AC890E82D0AEDCA006A4029 /* Views */,
 				1AC890EB2D0AF172006A4029 /* Services */,
 				1AC890F72D0B121A006A4029 /* Util */,
@@ -92,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				1AC890E92D0AEDF9006A4029 /* ContentView.swift */,
+				1AC891172D0B2C5D006A4029 /* PhoneInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -119,6 +125,14 @@
 				1AC890F82D0B1235006A4029 /* PNError.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		1AC8911B2D0B2D3D006A4029 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1AC8911C2D0B2D76006A4029 /* PhoneInfoViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,11 +214,13 @@
 			files = (
 				1AC890DC2D0AECBF006A4029 /* Persistence.swift in Sources */,
 				1AC890F52D0AF9EE006A4029 /* PhonenumberInfo.swift in Sources */,
+				1AC8911D2D0B2D76006A4029 /* PhoneInfoViewModel.swift in Sources */,
 				1AC890EA2D0AEDF9006A4029 /* ContentView.swift in Sources */,
 				1AC890ED2D0AF1CB006A4029 /* NetworkManager.swift in Sources */,
 				1AC890DF2D0AECBF006A4029 /* PhonenumberCheck.xcdatamodeld in Sources */,
 				1AC890D32D0AECBD006A4029 /* PhonenumberCheckApp.swift in Sources */,
 				1AC890F92D0B1235006A4029 /* PNError.swift in Sources */,
+				1AC891182D0B2C5D006A4029 /* PhoneInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
