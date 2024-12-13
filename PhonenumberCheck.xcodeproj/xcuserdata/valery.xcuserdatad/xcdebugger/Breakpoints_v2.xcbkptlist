@@ -14,8 +14,8 @@
             filePath = "PhonenumberCheck/Services/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "validatePhoneNumber()"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,25 +30,9 @@
             filePath = "PhonenumberCheck/Services/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "validatePhoneNumber()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "08FAD338-AFFF-4B56-8439-02FD63736542"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PhonenumberCheck/Services/NetworkManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "getAPIAccessKey()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -64,8 +48,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
             endingLineNumber = "17"
-            landmarkName = "fetchPhoneInfo(_:)"
-            landmarkType = "7">
+            landmarkName = "PhoneInfoViewModel"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -82,64 +66,6 @@
             endingLineNumber = "18"
             landmarkName = "fetchPhoneInfo(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B87973B3-ED5C-4996-B835-B780C55DE5F2 - 9dd43e779c067c55"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in PhonenumberCheck.PhoneInfoViewModel.fetchPhoneInfo(Swift.String) -&gt; ()"
-                  moduleName = "PhonenumberCheck"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/valery/Desktop/PhonenumberCheck/PhonenumberCheck/ViewModel/PhoneInfoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18">
-               </Location>
-               <Location
-                  uuid = "B87973B3-ED5C-4996-B835-B780C55DE5F2 - b61778b29095969"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) await resume partial function for closure #1 @Sendable () async throws -&gt; () in PhonenumberCheck.PhoneInfoViewModel.fetchPhoneInfo(Swift.String) -&gt; ()"
-                  moduleName = "PhonenumberCheck"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/valery/Desktop/PhonenumberCheck/PhonenumberCheck/ViewModel/PhoneInfoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18">
-               </Location>
-               <Location
-                  uuid = "B87973B3-ED5C-4996-B835-B780C55DE5F2 - 3fe3578b1adf304b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in PhonenumberCheck.PhoneInfoViewModel.fetchPhoneInfo(Swift.String) -&gt; ()"
-                  moduleName = "PhonenumberCheck"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/valery/Desktop/PhonenumberCheck/PhonenumberCheck/ViewModel/PhoneInfoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18">
-               </Location>
-               <Location
-                  uuid = "B87973B3-ED5C-4996-B835-B780C55DE5F2 - 42421c24244f3420"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async throws -&gt; () in PhonenumberCheck.PhoneInfoViewModel.fetchPhoneInfo(Swift.String) -&gt; ()"
-                  moduleName = "PhonenumberCheck"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/valery/Desktop/PhonenumberCheck/PhonenumberCheck/ViewModel/PhoneInfoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

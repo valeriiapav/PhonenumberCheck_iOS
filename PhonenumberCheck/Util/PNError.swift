@@ -12,4 +12,5 @@ enum PNError: Error {
     case invalidAccessToken
     case invalidResponse
     case failedToFetchPhoneNumber
+    case failedToParseToken
 }

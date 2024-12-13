@@ -11,16 +11,16 @@ class PhoneInfoViewModel: ObservableObject {
     
     @Published var currentPhoneInfo: PhonenumberInfo?
     
-    func fetchPhoneInfo(_ inputNumber: String) {
+    func fetchPhoneInfo(_ inputNumber: String) throws  {
         Task {
             do {
                 let phonenumberInfo = try await NetworkManager.networkManager.validatePhoneNumber()
                 await MainActor.run {
                     self.currentPhoneInfo = phonenumberInfo
-                    }
-                } catch {
-                    throw PNError.failedToFetchPhoneNumber
                 }
+            } catch {
+                throw PNError.failedToFetchPhoneNumber
+            }
         }
     }
 }
